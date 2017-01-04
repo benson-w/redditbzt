@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#/usr/bin/python
 
 # will only work if python binary is in /usr/bin
 
@@ -13,3 +13,4 @@ for submission in subreddit.hot(limit=5):
     print("Text: ", submission.selftext)
     print("Score: ", submission.score)
     print("-------\n")
+    print(dir(submission))
