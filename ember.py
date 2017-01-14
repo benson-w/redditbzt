@@ -35,9 +35,9 @@ else:
         posts_repiled_to = f.read()
         posts_repiled_to = posts_replied_to.split("\n")
         posts_replied_to = list(filter(None, posts_replied_to))
-#subreddit = reddit.subreddit('the_perplexing_benson')
+subreddit = reddit.subreddit('the_perplexing_benson')
 
-subreddit = reddit.subreddit('dota2')
+#subreddit = reddit.subreddit('dota2')
         
 #for submission in subreddit.hot(limit=3):
 #    print(submission.title)
